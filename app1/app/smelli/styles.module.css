@@ -2,13 +2,13 @@
     min-height: 100vh;
     display: grid;
     place-content: center;
-    background-color: #09000c;
+    background-color: #bd08f9;
 }
 
 .video-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
-    height: auto;
+    width: 50%;
+    height: 50%;
 }
