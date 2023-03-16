@@ -1,8 +1,6 @@
 import "./globals.css";
-import Head from "next/head";
 
 // Header fpr sweet smelly woman armpit juice
-
 <head>
   <link
     rel="apple-touch-icon"
