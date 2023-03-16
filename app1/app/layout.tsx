@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Dancing_Script } from "next/font/google";
 
 // Header fpr sweet smelly woman armpit juice
 <head>
@@ -77,10 +78,25 @@ import "./globals.css";
   <meta name="theme-color" content="#ffffff"></meta>
 </head>;
 
+//fetish metadata
+
 export const metadata = {
   title: "WomanStink",
   description: "GeneratedFemalSweatDrink",
+  colorScheme: "dark",
+  creator: "womanadditct",
+  type: "MakeLoverBeyouShitqueen",
+  bookmarks: "Smellyherstink",
+  category: "WomanJuices",
 };
+
+// Font Selection
+
+const danc = Dancing_Script({
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  style: ["normal"],
+});
 
 export default function RootLayout({
   children,
@@ -88,7 +104,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={danc.className}>
       <body>{children}</body>
     </html>
   );
