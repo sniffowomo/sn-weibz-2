@@ -9,7 +9,13 @@ export default function RootLayout({
   return (
     <>
       <nav>Sniffers</nav>
-      <main className={styles.main}>{children}</main>
+      <main className={styles.main}>
+        {children}
+        <h1>ahahah</h1>
+        <div className="video-continer">
+          <video src="./f4.mp4" controls />
+        </div>
+      </main>
     </>
   );
 }

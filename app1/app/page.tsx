@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Salty Champagne🍹</h1>
-      <Link href="/smelli">Go to About page</Link>
+      <Link href="/smelli">DrinkHerJuice</Link>
       <Image src={sw} alt="sweatydrink" width={800} />
       <p style={{ color: "Pink", fontSize: "40px" }}>
         Ennoy the strong stinks How bad do you want this sweaty pussy, she said
