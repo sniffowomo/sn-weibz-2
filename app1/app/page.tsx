@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 // Image Import
 import sw from "./w.gif";
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Salty Champagne🍹</h1>
+      <Link href="/smelli">Go to About page</Link>
       <Image src={sw} alt="sweatydrink" width={800} />
       <p style={{ color: "Pink", fontSize: "40px" }}>
         Ennoy the strong stinks How bad do you want this sweaty pussy, she said

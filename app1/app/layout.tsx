@@ -105,7 +105,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={danc.className}>
-      <body>{children}</body>
+      <body>
+        <nav>Sniffers</nav>
+        {children}
+      </body>
     </html>
   );
 }
