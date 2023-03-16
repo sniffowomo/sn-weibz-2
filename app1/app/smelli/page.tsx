@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function Sniffers() {
+export default function Smelli() {
   return (
     <>
-      <h1>Sniffers</h1>
-      <Link href="/"> Link to Home Page</Link>
+      <h1>Smelli</h1>
+      <Link href="/"> Snifffff</Link>
     </>
   );
 }
