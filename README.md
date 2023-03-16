@@ -11,6 +11,7 @@
 1. [Huh ?](#huh-)
 2. [Branchoz](#branchoz)
 3. [Diroza](#diroza)
+4. [Webyizta](#webyizta)
 
 ----
 
@@ -29,14 +30,13 @@
 
 Dirz | FUQU 
 |:--:|:--:|
+[`app1`](./app1/) | Try 1 - MustySmellWoman
+
+# Webyizta
+
+[https://sn-weibz-2.vercel.app/](https://sn-weibz-2.vercel.app/)
+- Originalis yaya 
 
 
 
 
-
-
-
-
-
-sdsd
-kjhjkhsdsd
