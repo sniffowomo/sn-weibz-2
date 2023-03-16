@@ -12,7 +12,9 @@ export default function Home() {
     <main className={styles.main}>
       <h1>Howdy Doody</h1>
       <Image src={sw} alt="sweatydrink" width={800} />
-      <p>"yahahhahahah" "hohohohoh"</p>
+      <p>
+        Ennoy the strong stinks
+      </p>
     </main>
   );
 }
