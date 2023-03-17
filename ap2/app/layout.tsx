@@ -23,7 +23,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={plFo.className}>
-      <body>{children}</body>
+      <body>
+        <nav>MyNavBar</nav>
+        {children}
+      </body>
     </html>
   );
 }
