@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1> Woman Juice</h1>
+      <h2> Big Thaang </h2>
     </main>
   );
 }
