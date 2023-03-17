@@ -15,3 +15,5 @@
 # Deploys 
 
 $$\color{lime}{\Huge https://sn-weibz-2.vercel.app/}$$
+
+- Eldirecto
