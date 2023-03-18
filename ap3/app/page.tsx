@@ -1,16 +1,16 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "./page.module.css";
+import Image from 'next/image'
+import { Inter } from 'next/font/google'
+import styles from './page.module.css'
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing and smell he duck
-          <code className={styles.code}>app/page.tsx \n fuck</code>
+          Get started by editing&nbsp;
+          <code className={styles.code}>app/page.tsx</code>
         </p>
         <div>
           <a
@@ -18,13 +18,13 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
+            By{' '}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
-              height={20}
+              height={24}
               priority
             />
           </a>
@@ -36,8 +36,8 @@ export default function Home() {
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
-          width={200}
-          height={307}
+          width={180}
+          height={37}
           priority
         />
         <div className={styles.thirteen}>
@@ -87,5 +87,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  );
+  )
 }

@@ -97,7 +97,7 @@
 
 .center::before,
 .center::after {
-  content: "";
+  content: '';
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,14 +125,14 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
 }
 
 /* Conic Gradient Animation */
 .thirteen::before {
-  animation: 1s rotate linear infinite;
+  animation: 6s rotate linear infinite;
   width: 200%;
   height: 200%;
   background: var(--tile-border);
@@ -149,22 +149,6 @@
     rgba(var(--tile-end-rgb), 1)
   );
   background-clip: content-box;
-}
-
-/* This adddd by me */
-.glow {
-  font-size: 8px;
-  color: #fff;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-.neonText {
-  color: #fff;
-  text-shadow:
-    /* White glow */ 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
-    /* Green glow */ 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa,
-    0 0 151px #0fa;
 }
 
 /* Enable hover only on non-touch devices */
@@ -268,7 +252,7 @@
 
 @media (prefers-color-scheme: dark) {
   .vercelLogo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+    filter: invert(1);
   }
 
   .logo,
