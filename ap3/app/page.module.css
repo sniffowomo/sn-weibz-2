@@ -97,7 +97,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +125,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
@@ -162,15 +162,8 @@
 .neonText {
   color: #fff;
   text-shadow:
-    /* White glow */
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    /* Green glow */
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
+    /* White glow */ 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    /* Green glow */ 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa,
     0 0 151px #0fa;
 }
 
