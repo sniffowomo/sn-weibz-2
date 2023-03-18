@@ -36,7 +36,7 @@ export default function Home() {
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
-          width={520}
+          width={200}
           height={307}
           priority
         />
