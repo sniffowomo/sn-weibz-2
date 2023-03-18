@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='{Ch_Ng.className}'>
+    <html lang="en" className={Ch_Ng.className}>
       <body>{children}</body>
     </html>
   )

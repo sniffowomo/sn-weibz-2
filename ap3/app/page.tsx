@@ -57,6 +57,7 @@ export default function Home() {
           </h2>
           <p className={inter.className}>
             Find in-depth information about Next.js features and API.
+            get downon it
           </p>
         </a>
 
