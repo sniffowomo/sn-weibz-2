@@ -23,7 +23,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={Ch_Ng.className}>
-      <body>{children}</body>
+      <body>
+        <nav>NavBars</nav>
+        {children}
+      </body>
     </html>
   )
 }
