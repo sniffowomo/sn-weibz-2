@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Next JS: Lesson 3</h1>
+      <h2>Sniff Tang</h2>
     </main>
   )
 }
