@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 // Importinga nice ass font
 import { Changa } from 'next/font/google'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: '😽BootyClapSweat',
   description: '😽Snort'
 }
@@ -23,9 +23,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={Ch_Ng.className}>
-      <body>
-        <nav>NavBars</nav>
+    <html lang="en">
+      <body className={Ch_Ng.className}>
         {children}
       </body>
     </html>
